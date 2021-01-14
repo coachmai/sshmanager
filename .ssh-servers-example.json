@@ -2,8 +2,13 @@
   {
     "name": "First server",
     "user": "ubuntu",
-    "host": "firstserver.example.com",
-    "port": 22
+    "host": "firstserver.example.com"
+  },
+  { "name": "home",
+    "user": "me",
+    "host": "10.1.1.1",
+    "pem": "pfile",
+    "port": 5522
   },
   {
     "name": "Second server",
