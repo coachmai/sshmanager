@@ -1,0 +1,55 @@
+[
+  { "name": "tcx_atl1",
+    "user": "tcx",
+    "host": "128.136.143.220"
+  },
+  { "name": "tcx_atl2",
+    "user": "tcx",
+    "host": "128.136.143.224",
+    "port": 22
+  },
+  { "name": "tcx_ny",
+    "user": "tcx",
+    "host": "192.235.88.121"
+  },
+  { "name": "tcx_phx",
+    "user": "tcx",
+    "host": "198.35.55.211"
+  },
+  { "name": "aws",
+    "user": "nestadmin",
+    "host": "3.226.106.210"
+  },
+  { "name": "home",
+    "user": "kmai",
+    "host": "73.207.223.249",
+    "pem": "id_rsa_air",
+    "port": 5522
+  },
+  { "name": "v_dev",
+    "user": "khanh",
+    "host": "69.1.74.139",
+    "port": 21098
+  },
+  { "name": "v_k8b",
+    "user": "khanh",
+    "host": "69.1.76.183",
+    "port": 21098
+  },
+  { "name": "v_29",
+    "user": "khanh",
+    "host": "dag-chqtx29.totalstream.net",
+    "port": 21098
+  },
+  { "name": "v_es",
+    "user": "khanh",
+    "host": "esproxy-chqtx01.totalstream.net",
+    "port": 21098
+  },
+  { "name": "codex_office",
+    "user": "codex",
+    "host": "73.207.83.165",
+    "pem": "id_rsa_air",
+    "port": 5022
+  }
+]
