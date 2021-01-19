@@ -40,7 +40,7 @@ def main():
     ch = int(input())
     #choice = servers[int(input()) - 1]
     #call(['ssh', '-l', choice['user'], '-p', str(choice['port']), choice['host']])
-    if ch == 0 or ch >= len(commands):
+    if ch == 0 or ch > len(commands):
         return
     ch = ch - 1
     # print(commands[ch].split(' '))
