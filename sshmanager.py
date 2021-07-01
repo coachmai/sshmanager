@@ -37,9 +37,15 @@ def main():
         #print(Color.BLUE, i + 1, Color.END, "{}@{}:{} {}".format(server['user'], server['host'], server['port'], server['pem']))
 
     print('\nCan I have your number?\n> ', end='')
-    ch = int(input())
+    try:
+      ch0=input()
+    except SyntaxError:
+      ch0 = None
+    if ch0 is None or not ch0.isnumeric():
+        return
     #choice = servers[int(input()) - 1]
     #call(['ssh', '-l', choice['user'], '-p', str(choice['port']), choice['host']])
+    ch = int(ch0)
     if ch == 0 or ch > len(commands):
         return
     ch = ch - 1
